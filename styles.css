@@ -121,12 +121,12 @@ h1:hover {
     margin-bottom: 0.5rem;
     display: inline-block;
     border-radius: 9px;
-    transition: background-color 0.3s,
-        transform 0.2s;
-}
-.repo:hover {
-    background-color: #cc0c00;
-    transform: scale(1.05);
+    transition: background-color 0.3s, transform 0.2s;
+
+    &:hover {
+        background-color: #cc0c00;
+        transform: scale(1.05);
+    }
 }
 @media (max-width: 500px) {
     .card {
